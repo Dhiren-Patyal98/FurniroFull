@@ -21,7 +21,7 @@ function Login() {
       });
 
       if (response.data.success) {
-        localStorage.setItem("token", response.data.data.token); // Store token
+        localStorage.setItem("token", response.data.data.token); 
         navigate("/backend");
       } else {
         setError(response.data.msg);

@@ -49,7 +49,7 @@ const register_user = async (req, res) => {
 
 const create_token = async (id) => {
   try {
-    const token = await jwt.sign({ _id: id }, "thisisthesecretkey", { expiresIn: '1h' }); // Token expires in 1 hour
+    const token = await jwt.sign({ _id: id }, "thisisthesecretkey", { expiresIn: '1h' }); 
     return token;
   } catch (error) {
     throw new Error(error.message);
