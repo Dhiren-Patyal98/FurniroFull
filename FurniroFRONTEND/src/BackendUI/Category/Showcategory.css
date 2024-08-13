@@ -1,0 +1,36 @@
+.show-cat-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    width: 180%;
+   
+    justify-content: center;
+    align-items: center;    
+}
+.pre-show-cat{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 33%;;
+    margin: 20px;
+    padding: 20px;
+    height: 10%;
+    background-color: #fff;
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.pre-show-cat h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.pre-show-cat:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+  }

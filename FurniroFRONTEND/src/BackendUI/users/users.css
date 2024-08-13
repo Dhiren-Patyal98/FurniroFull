@@ -1,0 +1,46 @@
+/* src/components/UserCard.css */
+.header-user-container{
+/* border: 2px solid black; */
+width: 250%;
+height: 100vh;
+margin-left: 25%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.user-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 15px;
+    /* border:solid 2px black; */
+    width: 35rem;
+    height: auto;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-name {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+  
+  .user-email,
+  .user-phone,
+  .user-type {
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #333;
+  }
+  
